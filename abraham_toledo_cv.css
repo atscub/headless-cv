@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    min-height: 1100px;
+}
+
+.full-width-header {
+    padding: 60px 50px 30px 50px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.left-column {
+    background-color: #f4f4f4;
+    width: 260px;
+    padding: 40px 35px 40px 50px;
+    flex-shrink: 0;
+}
+
+.right-column {
+    flex: 1;
+    padding: 40px 50px 40px 50px;
+    background-color: white;
+}
+
+/* Header in Full Width */
+.header {
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+}
+
+/* Section Headers */
+.section-header {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 6px;
+}
+
+.section-header::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2.5px;
+    background-color: #000;
+}
+
+/* Left Column Sections */
+.details-section {
+    margin-bottom: 40px;
+}
+
+.detail-item {
+    margin-bottom: 25px;
+}
+
+.detail-label {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+
+.detail-value {
+    font-size: 10.5px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Skills Section */
+.skills-section {
+    margin-bottom: 40px;
+}
+
+.skill-item {
+    margin-bottom: 16px;
+}
+
+.skill-name {
+    font-size: 10.5px;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 400;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 100%;
+    background-color: #000;
+}
+
+/* Languages Section */
+.languages-section {
+    margin-bottom: 35px;
+}
+
+.language-item {
+    margin-bottom: 16px;
+}
+
+.language-name {
+    font-size: 10.5px;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 400;
+}
+
+.language-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.language-fill {
+    height: 100%;
+    background-color: #000;
+}
+
+/* Right Column Sections */
+.profile-section {
+    margin-bottom: 40px;
+}
+
+.profile-text {
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+/* Employment Section */
+.employment-section {
+    margin-bottom: 40px;
+}
+
+.job {
+    margin-bottom: 22px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+}
+
+.job-title {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #000;
+}
+
+.job-location {
+    font-size: 9.5px;
+    color: #666;
+}
+
+.job-period {
+    font-size: 9.5px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.job-description {
+    font-size: 10px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.job-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.job-list li {
+    font-size: 10px;
+    line-height: 1.5;
+    color: #333;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.job-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Education Section */
+.education-section {
+    margin-bottom: 35px;
+}
+
+.education-item {
+    margin-bottom: 18px;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+}
+
+.education-degree {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #000;
+}
+
+.education-location {
+    font-size: 9.5px;
+    color: #666;
+}
+
+.education-institution {
+    font-size: 10.5px;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.education-period {
+    font-size: 9.5px;
+    color: #666;
+    font-style: italic;
+}
+
+@media print {
+    body {
+        padding: 0;
+        background-color: white;
+    }
+    .container {
+        box-shadow: none;
+        max-width: 100%;
+    }
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* Prevent sections from breaking across pages */
+    .job,
+    .education-item,
+    .detail-item,
+    .skill-item,
+    .language-item {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* Keep section headers with their content */
+    .section-header {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    /* Prevent orphans and widows */
+    p, .job-description, .profile-text {
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* Force page break before element */
+    .page-break-before {
+        page-break-before: always;
+        break-before: page;
+    }
+
+    /* Force page break after element */
+    .page-break-after {
+        page-break-after: always;
+        break-after: page;
+    }
+}

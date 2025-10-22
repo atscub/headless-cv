@@ -1,0 +1,54 @@
+
+            Experience
+            Senior Frontend DeveloperSenior Frontend Developer
+                  transferz · Full-timetransferz · Full-time
+                Sep 2023 - Present · 2 yrs 2 mosSep 2023 to Present · 2 yrs 2 mos
+                Amsterdam, North Holland, Netherlands · On-siteAmsterdam, North Holland, Netherlands · On-site
+            As Senior Frontend Engineer in a Scrum team, I play a key role in driving technical solutions and shaping product experiences. I collaborate closely with our Product Owner and Designer to balance innovation with delivery capacity, ensuring we build intuitive and scalable user experiences. Leveraging my full-stack background, I often bridge the gap between frontend and backend teams, enabling smooth end-to-end integrations. I also mentor junior and mid-level engineers, fostering growth and best practices across the team.Some achievements & contributions:|Performance optimization|: Reduced LCP times on our legacy POS (CRA-4) through deep performance tuning and low-level web optimizations.|Modernization|: Guided and supported a junior developer in migrating a project from CRA-4 to Vite.|Feature delivery|: Designed and implemented driver tipping functionality in our traveller app.|Engineering culture|: Established coding standards, testing guidelines, and process improvements within Scrum.|DevOps excellence|: Maintained and enhanced CI/CD pipelines to ensure reliability and fast delivery.|Architecture & delivery|: Co-designed and implemented a new backoffice portal for a partner using a modern tech stack (Vite, React, Tailwind, SWR, TanStack Table).|Innovation|: Regularly explore and integrate AI-assisted coding practices to boost team productivity and code quality.As Senior Frontend Engineer in a Scrum team, I play a key role in driving technical solutions and shaping product experiences. I collaborate closely with our Product Owner and Designer to balance innovation with delivery capacity, ensuring we build intuitive and scalable user experiences. Leveraging my full-stack background, I often bridge the gap between frontend and backend teams, enabling smooth end-to-end integrations. I also mentor junior and mid-level engineers, fostering growth and best practices across the team.
+Some achievements & contributions:
+|Performance optimization|: Reduced LCP times on our legacy POS (CRA-4) through deep performance tuning and low-level web optimizations.
+|Modernization|: Guided and supported a junior developer in migrating a project from CRA-4 to Vite.
+|Feature delivery|: Designed and implemented driver tipping functionality in our traveller app.
+|Engineering culture|: Established coding standards, testing guidelines, and process improvements within Scrum.
+|DevOps excellence|: Maintained and enhanced CI/CD pipelines to ensure reliability and fast delivery.
+|Architecture & delivery|: Co-designed and implemented a new backoffice portal for a partner using a modern tech stack (Vite, React, Tailwind, SWR, TanStack Table).
+|Innovation|: Regularly explore and integrate AI-assisted coding practices to boost team productivity and code quality.
+            Skills: Web Application Development · React.js · Apollo GraphQL · Tailwind CSS · CoreUISkills: Web Application Development · React.js · Apollo GraphQL · Tailwind CSS · CoreUI
+            BOTSBOTS
+                  Full-time · 1 yr 4 mosFull-time · 1 yr 4 mos
+                Haarlem, North Holland, NetherlandsHaarlem, North Holland, Netherlands
+            Technical LeadTechnical Lead
+                Oct 2022 - Jun 2023 · 9 mosOct 2022 to Jun 2023 · 9 mos
+            As the tech lead for the business operations infrastructure team, I'm responsible for guiding the team towards achieving the common goals of the organization. Communication with other teams, and non technical stake holders is essential. Therefor, I also act as a bridge making sure business requirements are propperly and efficiently translated into technical roadmaps for implementation.Ensuring good communication and careful listening as they are key for the role.As the tech lead for the business operations infrastructure team, I'm responsible for guiding the team towards achieving the common goals of the organization. Communication with other teams, and non technical stake holders is essential. Therefor, I also act as a bridge making sure business requirements are propperly and efficiently translated into technical roadmaps for implementation.
+Ensuring good communication and careful listening as they are key for the role.
+            Skills: Hypertext Transfer Protocol (HTTP) · TypeScriptSkills: Hypertext Transfer Protocol (HTTP) · TypeScript
+            Full Stack EngineerFull Stack Engineer
+                Mar 2022 - Sep 2022 · 7 mosMar 2022 to Sep 2022 · 7 mos
+            Together with my team, we were responsible for developing and maintaining the infrastructure for business operations across the company. Integrating the central platform with several internal and external APIs and No SQL databases. Enabling operations and business insight for employees of the organization.Together with my team, we were responsible for developing and maintaining the infrastructure for business operations across the company. Integrating the central platform with several internal and external APIs and No SQL databases. Enabling operations and business insight for employees of the organization.
+            Skills: Hypertext Transfer Protocol (HTTP) · TypeScriptSkills: Hypertext Transfer Protocol (HTTP) · TypeScript
+            Mobile Application DeveloperMobile Application Developer
+                  Fonoma · Full-timeFonoma · Full-time
+                Oct 2019 - Jan 2022 · 2 yrs 4 mosOct 2019 to Jan 2022 · 2 yrs 4 mos
+            My team and I were responsible for the Development and DevOps for the Mobile Application part of the product. Extreme attention to detail and nuances was key to develop the best user experience and ensure the highest retention possible. Worked along with very seasoned UI/UX designers, and tech leads from whom I was able to absorb a lot of knowledge from and experience.My team and I were responsible for the Development and DevOps for the Mobile Application part of the product. Extreme attention to detail and nuances was key to develop the best user experience and ensure the highest retention possible. Worked along with very seasoned UI/UX designers, and tech leads from whom I was able to absorb a lot of knowledge from and experience.
+            Skills: Hypertext Transfer Protocol (HTTP) · TypeScript · React.jsSkills: Hypertext Transfer Protocol (HTTP) · TypeScript · React.js
+            Software EngineerSoftware Engineer
+                  EOS Code · Part-timeEOS Code · Part-time
+                Sep 2020 - Aug 2021 · 1 yrSep 2020 to Aug 2021 · 1 yr
+                RemoteRemote
+            - Develop the entire life cycle of mobile applications.- Develop and deploy ODOO integrations with third party APIs like Shopify and Google Cloud Storage.- Develop the entire life cycle of mobile applications.
+- Develop and deploy ODOO integrations with third party APIs like Shopify and Google Cloud Storage.
+            Skills: Hypertext Transfer Protocol (HTTP) · TypeScript · React.jsSkills: Hypertext Transfer Protocol (HTTP) · TypeScript · React.js
+            Founder and Full Stack DeveloperFounder and Full Stack Developer
+                  Aurora Suite · Self-employedAurora Suite · Self-employed
+                Mar 2012 - May 2019 · 7 yrs 3 mosMar 2012 to May 2019 · 7 yrs 3 mos
+                Havana, CubaHavana, Cuba
+            Develop a platform to allow seamless access to the world wide web on mobile devices with email-only service. The platform was useful and very popular in Cuba (up to 5k monthly active users) due to the lack of mobile data plans.- Develop a distributed PHP-based backend that served as a bridge between SMTP protocol and HTTP protocol.- Develop an Android application with Java that served as a bridge between the users personal email account and the web browser.Develop a platform to allow seamless access to the world wide web on mobile devices with email-only service. The platform was useful and very popular in Cuba (up to 5k monthly active users) due to the lack of mobile data plans.
+- Develop a distributed PHP-based backend that served as a bridge between SMTP protocol and HTTP protocol.
+- Develop an Android application with Java that served as a bridge between the users personal email account and the web browser.
+            Skills: Hypertext Transfer Protocol (HTTP)Skills: Hypertext Transfer Protocol (HTTP)
+            University LecturerUniversity Lecturer
+                  Universidad Tecnólogica de La Habana "Jose Antonio Echeverría"​, CUJAE · Full-timeUniversidad Tecnólogica de La Habana "Jose Antonio Echeverría"​, CUJAE · Full-time
+                Sep 2016 - Sep 2018 · 2 yrs 1 moSep 2016 to Sep 2018 · 2 yrs 1 mo
+                Havana, CubaHavana, Cuba
+            Teach Calculus and Numerical Mathematics.Teach Calculus and Numerical Mathematics.
+  
