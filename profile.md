@@ -28,6 +28,22 @@ Proven track record of delivering scalable, user-centric solutions across variou
 
 Passionate about leveraging AI technologies throughout the whole engineering process, with a strong interest in multi-agent systems. Committed to building resilient products and fostering thriving engineering cultures.
 
+## Summary v3
+
+13 years building software. 8 years specializing in frontend and full-stack. I've touched most things in between—mobile apps, distributed systems, even building a hands-off email-to-web bridge in Cuba when internet was scarce. Open source contributor with 41 stars on a Python library I maintain.
+
+I mentor developers, push for clean code and sustainable practices, and bridge the gap between frontend, backend, and business needs. Recently exploring how AI and multi-agent systems can reshape how we build software.
+
+I care about what works *and* what lasts.
+
+## Open Source
+
+### nautapy
+**Python library** · 41 stars
+[github.com/atscub/nautapy](https://github.com/atscub/nautapy)
+
+A Python client for interacting with Cuba's Nauta internet service. Built to solve a real problem for Cuban users managing their internet accounts—checking balance, viewing usage history, and handling connections programmatically. The library abstracts away the complexity of the Nauta portal's authentication and session management, making it simple for developers to integrate these features into their own tools and applications.
+
 ## Experience
 
 ### Senior Frontend Developer
@@ -114,3 +130,64 @@ Develop a platform to allow seamless access to the world wide web on mobile devi
 Havana, Cuba
 
 Teach Calculus and Numerical Mathematics.
+
+## Education
+![University of Havana logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/University_of_Havana_logo.svg/1200px-University_of_Havana_logo.svg.png)
+**University of Havana**
+Bachelor's degree, Mathematics
+2009 - 2016
+
+## Licenses & certifications
+**EFSET English Certificate 83/100 (C2 Proficient)**
+**EF SET**
+Issued Jul 2021
+
+
+## Skills
+
+### Frontend
+- React.js (LinkedIn Assessment ✓)
+- TypeScript
+- JavaScript (LinkedIn Assessment ✓)
+- Next.js
+- Tailwind CSS
+- Apollo GraphQL
+- CoreUI
+- HTML5 / CSS3 (LinkedIn Assessment ✓)
+- SASS
+- Vite
+- Performance Optimization
+- Angular (LinkedIn Assessment ✓)
+
+### Backend
+- Node.js (LinkedIn Assessment ✓)
+- Python (LinkedIn Assessment ✓)
+- Django (LinkedIn Assessment ✓)
+- Flask
+- REST APIs (LinkedIn Assessment ✓)
+- GraphQL
+- PHP (LinkedIn Assessment ✓)
+
+### Databases
+- PostgreSQL
+- MySQL (LinkedIn Assessment ✓)
+- NoSQL
+
+### Mobile Development
+- Android Development (LinkedIn Assessment ✓)
+- React Native
+- Ionic Framework
+- Java (LinkedIn Assessment ✓)
+
+### Tools & DevOps
+- Git (LinkedIn Assessment ✓)
+- CI/CD
+- Bash (LinkedIn Assessment ✓)
+- Docker
+
+### Other
+- Web Application Development
+- Full-Stack Development
+- Mentoring & Leadership
+- Agile/Scrum
+- OOP (LinkedIn Assessment ✓)
