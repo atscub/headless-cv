@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f5f5f5] p-5 font-sans leading-tight;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+
+  @media print {
+    @page {
+      /* size: A4; */
+      margin-top: 20mm;
+    }
+
+    body {
+      @apply bg-white p-0;
+    }
+
+    * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+}
+
+@layer utilities {
+  .break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+    break-after: page;
+  }
+}
