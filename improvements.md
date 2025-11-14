@@ -1,0 +1,3 @@
+- Add a color theme to enhance visual appeal.
+- Add icons where relevant to improve readability. (location, calendar, email, phone, etc)
+- Correct grammar and spelling mistakes.
