@@ -27,14 +27,14 @@ export function ExperienceSection({ jobs }: ExperienceSectionProps) {
               </div>
               <div className="flex items-center gap-1 text-[9.5px] text-text-gray">
                 <Icon
-                  name={job.locationIcon ?? 'mapPin'}
+                  name={job.locationIcon ?? 'MapPin'}
                   className="h-[11px] w-[11px] stroke-primary"
                 />
                 {job.location}
               </div>
             </div>
             <div className="mb-2 flex items-center gap-1 text-[9.5px] italic text-text-gray">
-              <Icon name="calendar" className="h-[11px] w-[11px] stroke-primary" />
+              <Icon name="Calendar" className="h-[11px] w-[11px] stroke-primary" />
               {job.period}
             </div>
             <div className="text-[10px] leading-[1.5] text-text-medium">

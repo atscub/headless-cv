@@ -15,7 +15,7 @@ export function OpenSourceSection({ items }: OpenSourceSectionProps) {
         <div className="mb-[18px] break-inside-avoid" key={item.name}>
           <div className="mb-1 flex items-baseline justify-between gap-3">
             <div className="flex items-center gap-1 text-[11.5px] font-bold text-primary">
-              <Icon name="code2" className="h-[11px] w-[11px] stroke-primary" />
+              <Icon name="Code" className="h-[11px] w-[11px] stroke-primary" />
               <Markdown
                 content={item.name}
                 components={{
@@ -24,7 +24,7 @@ export function OpenSourceSection({ items }: OpenSourceSectionProps) {
               />
             </div>
             <div className="flex items-center gap-1 text-[9.5px] text-text-gray">
-              <Icon name="star" className="h-[11px] w-[11px] stroke-primary" />
+              <Icon name="Star" className="h-[11px] w-[11px] stroke-primary" />
               <Markdown
                 content={item.stars}
                 components={{
@@ -34,7 +34,7 @@ export function OpenSourceSection({ items }: OpenSourceSectionProps) {
             </div>
           </div>
           <div className="mb-2 flex items-center gap-1 text-[9.5px] text-text-gray">
-            <Icon name="github" className="h-[11px] w-[11px] stroke-primary" />
+            <Icon name="Github" className="h-[11px] w-[11px] stroke-primary" />
             <Markdown
               content={item.meta}
               components={{

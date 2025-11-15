@@ -3,6 +3,7 @@ import type { DetailItem } from '../types/cv'
 import { Icon } from './Icon'
 import { Markdown } from './Markdown'
 import { SectionHeading } from './SectionHeading'
+import classNames from 'classnames'
 
 interface DetailsSectionProps {
   details: DetailItem[]
@@ -27,7 +28,13 @@ export function DetailsSection({ details }: DetailsSectionProps) {
                 <Markdown
                   content={line}
                   components={{
-                    p: (paragraphProps) => <span {...paragraphProps} />,
+                    p: (paragraphProps) => {
+                      const className = classNames(
+                        paragraphProps.className,
+                        detail.highlight ? 'font-bold text-primary' : '', 
+                      )
+                      return <span {...paragraphProps} className={className} />
+                    },
                   }}
                 />
                 {index < detail.lines.length - 1 && <br />}

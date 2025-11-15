@@ -1,9 +1,8 @@
-export type DetailIcon = 'mapPin' | 'phone' | 'mail' | 'linkedin' | 'github';
-
 export interface DetailItem {
-  icon: DetailIcon;
+  icon: string;
   label: string;
   lines: string[];
+  highlight?: boolean;
 }
 
 export interface HeaderData {
