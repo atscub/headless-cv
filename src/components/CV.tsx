@@ -18,12 +18,12 @@ export function CV({ data }: CVProps) {
     <div className="mx-auto min-h-[1100px] max-w-[850px] bg-white shadow-cv print:max-w-full print:shadow-none">
       <Header data={data.header} />
       <div className="flex">
-        <div className="min-h-[calc(2*297mm-140px)] w-[260px] flex-shrink-0 bg-background px-[35px] pb-[40px] pl-[50px] pt-[40px]">
+        <div className="min-h-[calc(2*297mm-140px)] w-[260px] shrink-0 bg-background px-[35px] pb-10 pl-[50px] pt-10">
           <DetailsSection details={data.contact.details} />
           <SkillsSection skills={data.skills} />
           <LanguagesSection languages={data.languages} />
         </div>
-        <div className="flex-1 bg-white px-[50px] py-[40px]">
+        <div className="flex-1 bg-white px-[50px] py-10">
           <ProfileSection content={data.profile} />
           <SectionDivider />
           <ExperienceSection jobs={data.experience} />

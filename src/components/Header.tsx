@@ -6,7 +6,7 @@ interface HeaderProps {
 
 export function Header({ data }: HeaderProps) {
   return (
-    <div className="border-b border-border-light bg-white px-[50px] pb-[30px] pt-[40px]">
+    <div className="border-b border-gray-300 bg-white px-[50px] pb-[30px] pt-[40px]">
       <div>
         <div className="mb-3 text-[38px] font-bold uppercase leading-[1.1] text-primary">
           {data.firstName} {data.lastName}
