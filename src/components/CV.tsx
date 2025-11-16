@@ -18,7 +18,7 @@ export function CV({ data }: CVProps) {
     <div className="mx-auto min-h-[1100px] max-w-[850px] bg-white shadow-cv print:max-w-full print:shadow-none">
       <Header data={data.header} />
       <div className="flex">
-        <div className="min-h-[calc(2*297mm-140px)] w-[260px] shrink-0 bg-background px-[35px] pb-10 pl-[50px] pt-10">
+        <div className="print:min-h-[calc(2*297mm-140px)] w-[260px] shrink-0 bg-background px-[35px] pb-10 pl-[50px] pt-10">
           <DetailsSection details={data.contact.details} />
           <SkillsSection skills={data.skills} />
           <LanguagesSection languages={data.languages} />

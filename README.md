@@ -62,7 +62,7 @@ npm run lint
 ```
 
 ## Customizing the template
-- **Colors/typography**: Update the Tailwind theme in `tailwind.config.js`.
+- **Colors/typography**: Update the DaisyUI theme tokens near the top of `src/index.css` (inside the `@plugin "daisyui/theme"` block). Adjust values like `--color-primary`, `--color-secondary`, and `--color-base-100` to rebrand the buttons, links, and page background.
 - **Layout tweaks**: Modify the relevant section component (e.g., `ExperienceSection.tsx`). Tailwind utilities keep styles co-located with markup.
 - **Print-only adjustments**: Add rules to `@layer base` in `src/index.css` (e.g., page margins, page-break helpers).
 
