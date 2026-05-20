@@ -3,11 +3,12 @@ import { DetailsSection } from './DetailsSection'
 import { EducationSection } from './EducationSection'
 import { ExperienceSection } from './ExperienceSection'
 import { Header } from './Header'
-import { LanguagesSection } from './LanguagesSection'
+import { LanguagesBadges } from './LanguagesBadges'
 import { OpenSourceSection } from './OpenSourceSection'
 import { ProfileSection } from './ProfileSection'
 import { SectionDivider } from './SectionDivider'
-import { SkillsSection } from './SkillsSection'
+import { SideProjectsSection } from './SideProjectsSection'
+import { SkillsBadges } from './SkillsBadges'
 
 interface CVProps {
   data: CVData
@@ -20,15 +21,25 @@ export function CV({ data }: CVProps) {
       <div className="flex">
         <div className="print:min-h-[calc(2*297mm-140px)] w-[260px] shrink-0 bg-background px-[35px] pb-10 pl-[50px] pt-10">
           <DetailsSection details={data.contact.details} />
-          <SkillsSection skills={data.skills} />
-          <LanguagesSection languages={data.languages} />
+          <SkillsBadges badges={data.badges} />
+          <LanguagesBadges languages={data.languages} />
         </div>
         <div className="flex-1 bg-white px-[50px] py-10">
           <ProfileSection content={data.profile} />
           <SectionDivider />
           <ExperienceSection jobs={data.experience} />
-          <SectionDivider />
-          <OpenSourceSection items={data.openSource} />
+          {data.sideProjects && data.sideProjects.length > 0 && (
+            <>
+              <SectionDivider />
+              <SideProjectsSection items={data.sideProjects} />
+            </>
+          )}
+          {data.openSource && data.openSource.length > 0 && (
+            <>
+              <SectionDivider />
+              <OpenSourceSection items={data.openSource} />
+            </>
+          )}
           <SectionDivider />
           <EducationSection items={data.education} />
         </div>

@@ -7,7 +7,7 @@ contact:
     - icon: MapPin
       label: ADDRESS
       lines:
-        - Zaandam
+        - Amsterdam
         - North Holland
         - Netherlands
     - icon: Phone
@@ -31,34 +31,32 @@ contact:
       highlight: true
       lines:
         - '**[abrahamtoledo.dev [↗]](https://abrahamtoledo.dev)**'
-skills:
-  - name: "React & TypeScript"
-    level: 95
-  - name: "Next.js & Vite"
-    level: 90
-  - name: "Node.js & Python"
-    level: 90
-  - name: "GraphQL & REST APIs"
-    level: 90
-  - name: "Performance Optimization"
-    level: 90
-  - name: "PostgreSQL & NoSQL"
-    level: 85
-  - name: "CI/CD & DevOps"
-    level: 85
-  - name: "Mentoring & Leadership"
-    level: 85
+badges:
+  - label: Ionic
+  - label: Angular
+  - label: React
+  - label: TypeScript
+  - label: Node
+  - label: Python
+  - label: Pydantic
+  - label: Asyncio
+  - label: NumPy
+  - label: GraphQL
+  - label: REST
+  - label: SQL
+  - label: MongoDB
+  - label: Docker
+  - label: GitHub Actions
+  - label: Claude Code
+  - label: Playwright
+  - label: Agent Orchestration
 languages:
   - name: Spanish
     level: 100
   - name: English
     level: 95
 profile: |
-  I’ve built software professionally for the last 13 years—from frontend and full-stack work to mobile apps and distributed systems. My journey includes creating an email-to-web bridge in Cuba when internet was scarce, and contributing open source tools that solve real problems (like a Python library with 41 stars).
-
-  I mentor developers, advocate for clean code, and connect the dots between tech and business. I thrive on tackling tough problems, making things work, and making them last. Lately, I’m exploring how AI and multi-agent systems can change the way we build software.
-
-  I care about impact, not just output.
+  Senior engineer with 14 years across frontend, full-stack, mobile, and distributed systems. Started in Cuba building an email-to-web bridge during the early-internet years. Lately focused on agents and multi-agent systems — how to give them enough structure to live inside workflows people depend on.
 experience:
   - title: Senior Software Engineer, Transferz
     locationIcon: MapPin
@@ -67,58 +65,70 @@ experience:
     description: |
       [https://transferz.com](https://transferz.com/)
 
-      Own the whitelabel portal (**50k+ weekly users**), partner portal, traveler app, and several GraphQL-based BFFs serving **thousands of users** and **600k+ daily queries**.
+      Own the whitelabel portal (**50k+ weekly users**), partner portal, traveler app, and several GraphQL-based BFFs serving **600k+ daily queries**.
 
-      - Led the development of a dedicated admin portal for one of the largest European travel groups, using a state-of-the-art stack (Vite + React + TailwindCSS + TanStack), plus an embeddable vehicle-selection widget.
-      - Led the redesign of the whitelabel application and implemented reactive A/B tests, increasing conversion by **~50%** and enabling rollout for **Agoda** (**~5k bookings/month**), one of the biggest names in the Asian travel space.
-      - Optimized performance of the legacy whitelabel application, reducing load times by **~50%**. Built a custom GraphQL-prefetching layer to load data before React initialized—critical for launching the Agoda partnership (~5k bookings/month).
-      - Advocates for and advances AI-augmented development practices. Examples include raising test coverage across apps to **80%+** and reducing discovery + refinement + development time by **~4×**.
-      - Improved frontend type safety and reliability by implementing GraphQL schema–based type generation, reducing production bugs by **~80%**.
-      - Developed tipping functionality (with a fellow frontend engineer and the CTO), enabling travelers to tip drivers directly within the app.
+      - Led an admin portal for one of the largest European travel groups and an embeddable vehicle-selection widget (Vite + React + TailwindCSS + TanStack).
+      - Redesigned the whitelabel app and ran reactive A/B tests, lifting conversion **~50%** and enabling rollout for **Agoda** (**~5k bookings/month**); built a GraphQL-prefetching layer that cut legacy load times **~50%**.
+      - Introduced GraphQL schema-based type generation, reducing production bugs **~80%**; raised test coverage to **80%+** with AI-augmented practices.
+
+      _React, Vite, TypeScript, GraphQL, Node.js_
   - title: Senior Full Stack Engineer and Team Lead, BOTS
     locationIcon: MapPin
     location: Haarlem, NL
     period: Oct 2022 — Jun 2023
     description: |
-      https://en.bots.io/
+      [https://en.bots.io](https://en.bots.io/)
 
-      Owned the the back-office application used by employees across all teams.
+      Owned the back-office application used by employees across all teams.
 
-      - Led the migration from Flask to FastAPI, improving response times by **4×** to meet the performance needs of the data science team.
-      - Designed and implemented the Portfolio Management system used by partner account managers, with high business impact (**100k+ portfolios** managed).
-      - Collaborated with multiple departments to gather requirements, understand constraints, and prioritize the team’s roadmap.
+      - Led the Flask → FastAPI migration, improving response times **4×** for the data-science team.
+      - Designed the Portfolio Management system used by partner account managers (positions worth **€100k+** each).
+
+      _Angular, TypeScript, Flask, FastAPI, MongoDB_
   - title: Senior Mobile Developer (Ionic), Fonoma
     locationIcon: Globe
     location: Remote
     period: Oct 2019 — Jan 2022
     description: |
-      https://www.fonoma.com/en
+      [https://www.fonoma.com/en](https://www.fonoma.com/en)
 
-      Senior member of the mobile team owning the mobile application used by Fonoma’s customers.
+      Senior on the mobile team owning the app used by Fonoma’s customers (**20k+ top-ups/week**).
 
-      - Contributed to the full redesign and performance improvements of the mobile app, which processes **20k+ top-ups per week**.
-      - Proactively monitored performance, enabling early detection and resolution of issues before users reported them—reducing customer support load and preventing conversion loss.
-      - Resolved complex issues in the legacy codebase caused by the lack of meaningful types, improving long-term reliability by enforcing proper typing and migrating from promise-heavy flows to modern async/await patterns.
-    # pageBreakAfter: true
-    extraSpacing: true
+      - Contributed to the full redesign and performance work for the app, and untangled a legacy codebase by enforcing proper typing and migrating from promise-heavy flows to async/await.
+
+      _Ionic, Angular, TypeScript_
   - title: Founder & Full Stack Developer, Aurora Suite
     locationIcon: MapPin
     location: Havana, Cuba
     period: Mar 2012 — May 2019
+    extraSpacing: true
     description: |
-      https://aurorasuite.io 
+      [https://aurorasuite.io](https://aurorasuite.io)
 
-      Role: Solo founder maintaining a custom stack composed of a mail-to-web bridge server, multiple client applications, and browser add-ons enabling internet navigation over email in Cuba. It was mentioned by [freedomhouse.org](https://freedomhouse.org/) as one of the tools used to bypass the government censorship.
+      Solo founder of a mail-to-web bridge that let people in Cuba navigate the internet over email. [Freedom House](https://freedomhouse.org/) cited it as one of the tools used to bypass government censorship.
 
-      - Created a unique Browser → Client App → Email↔Web Bridge Server → Web architecture that allowed thousands of people to navigate the internet via email. At its peak, it served **5k+ paying customers**, generated **USD 12k MRR**, and processed **100k+ emails per day**.
-      - Implemented a JSON-based protocol to pack and unpack web requests and responses.
-      - Built custom Java (Android) and .NET (Windows) client applications with low-level concurrency logic to handle many simultaneous web-page requests over a single email channel, achieving **~4-second round trips** per page—significantly faster than any other web-to-email solution at the time.
+      - Built a Browser → Client App → Email↔Web Bridge → Web architecture serving **5k+ paying customers**, **USD 12k MRR**, **100k+ emails/day**, with custom Java (Android) and .NET (Windows) clients doing low-level concurrency to multiplex many simultaneous HTTP requests over a single SMTP/IMAP channel — **~4-second round trips**, faster than any other web-to-email solution at the time.
+
+      _JavaScript, Android (Java), .NET (C#), PHP, Postfix, MySQL_
+sideProjects:
+  - name: Godel
+    meta: "Python · closed-source agent orchestrator"
+    description: |
+      A Python orchestrator I’m keeping closed-source. Gives agents structure and a clear boundary between the deterministic and non-deterministic parts of a workflow — decorator-based `@workflow` / `@step`, structured event logs, pause/resume/rewind on typed Pydantic v2 state. Auditable, durable, self-healing.
+  - name: know-your-limits
+    meta: "Claude Code plugin marketplace · [github.com/atscub/know-your-limits](https://github.com/atscub/know-your-limits)"
+    description: |
+      A Claude Code plugin marketplace with 15 metacognition and operations skills — premortems, steelmanning, first-principles decomposition, PR lifecycle — that the agent runs on itself to push back against confirmation bias, Dunning-Kruger, hallucination, and incoherence.
+  - name: Food Fighters
+    meta: "Phaser 3 + TypeScript · [github.com/atscub/food-fighters](https://github.com/atscub/food-fighters)"
+    description: |
+      A 2D fighter built through a closed auto-improvement loop inspired by Karpathy’s auto-research approach. 18 iterations adding most of the interesting features autonomously, with me steering the high-level direction.
 openSource:
   - name: nautapy
     stars: "41 stars"
     meta: "Python library · github.com/atscub/nautapy"
     description: |
-      A Python client for interacting with Cuba's Nauta internet service. Built to solve a real problem for Cuban users managing their internet accounts—checking balance, viewing usage history, and handling connections programmatically. The library abstracts away the complexity of the Nauta portal's authentication and session management, making it simple for developers to integrate these features into their own tools and applications.
+      A Python client for Cuba’s Nauta internet service — checking balance, viewing usage history, handling connections programmatically. Abstracts away the Nauta portal’s authentication and session management.
 education:
   - degree: "Bachelor's degree, Mathematics"
     location: Havana, Cuba
@@ -127,4 +137,4 @@ education:
   - degree: University Lecturer
     location: Havana, Cuba
     institution: "Universidad Tecnológica de La Habana, CUJAE"
-    period: "Sep 2016 — Sep 2018 · Taught Calculus and Numerical Mathematics"
+    period: "Sep 2016 — Sep 2018 · Calculus and Numerical Mathematics"

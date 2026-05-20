@@ -11,14 +11,20 @@ export interface HeaderData {
   title: string;
 }
 
-export interface Skill {
-  name: string;
-  level: number;
+export interface Badge {
+  label: string;
 }
 
 export interface Language {
   name: string;
   level: number;
+  note?: string;
+}
+
+export interface SideProject {
+  name: string;
+  meta?: string;
+  description: string;
 }
 
 export type LocationIcon = 'mapPin' | 'globe';
@@ -53,10 +59,11 @@ export interface CVData {
   contact: {
     details: DetailItem[];
   };
-  skills: Skill[];
+  badges: Badge[];
   languages: Language[];
   profile: string;
   experience: JobExperience[];
-  openSource: OpenSourceItem[];
+  openSource?: OpenSourceItem[];
+  sideProjects?: SideProject[];
   education: EducationItem[];
 }
