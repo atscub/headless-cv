@@ -28,16 +28,16 @@ export function CV({ data }: CVProps) {
           <ProfileSection content={data.profile} />
           <SectionDivider />
           <ExperienceSection jobs={data.experience} />
-          {data.sideProjects && data.sideProjects.length > 0 && (
-            <>
-              <SectionDivider />
-              <SideProjectsSection items={data.sideProjects} />
-            </>
-          )}
           {data.openSource && data.openSource.length > 0 && (
             <>
               <SectionDivider />
               <OpenSourceSection items={data.openSource} />
+            </>
+          )}
+          {data.sideProjects && data.sideProjects.length > 0 && (
+            <>
+              <SectionDivider />
+              <SideProjectsSection items={data.sideProjects} />
             </>
           )}
           <SectionDivider />

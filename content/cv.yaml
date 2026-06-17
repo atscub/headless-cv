@@ -56,7 +56,7 @@ languages:
   - name: English
     level: 95
 profile: |
-  Senior engineer with 14 years across frontend, full-stack, mobile, and distributed systems. Started in Cuba building an email-to-web bridge during the early-internet years. Lately focused on agents and multi-agent systems — how to give them enough structure to live inside workflows people depend on.
+  Senior software engineer with 14 years across frontend, full-stack, mobile, and distributed systems. Started in Cuba building an email-to-web bridge during the early-internet years. Built and maintain an open source cli tool used by many Cubans today to manage their internet access. Applied AI, beyond the hype, is a new found passion.
 experience:
   - title: Senior Software Engineer, Transferz
     locationIcon: MapPin
@@ -67,9 +67,9 @@ experience:
 
       Own the whitelabel portal (**50k+ weekly users**), partner portal, traveler app, and several GraphQL-based BFFs serving **600k+ daily queries**.
 
-      - Led an admin portal for one of the largest European travel groups and an embeddable vehicle-selection widget (Vite + React + TailwindCSS + TanStack).
+      - Led the creation of an admin portal for one of our B2B partners, one of the largest European travel groups; and an embeddable vehicle-selection widget (Vite + React + TailwindCSS + TanStack).
       - Redesigned the whitelabel app and ran reactive A/B tests, lifting conversion **~50%** and enabling rollout for **Agoda** (**~5k bookings/month**); built a GraphQL-prefetching layer that cut legacy load times **~50%**.
-      - Introduced GraphQL schema-based type generation, reducing production bugs **~80%**; raised test coverage to **80%+** with AI-augmented practices.
+      - Introduced GraphQL schema-based type generation, reducing production bugs **~80%** (measured in our Datadog environment); raised test coverage to **80%+** with AI-augmented practices.
 
       _React, Vite, TypeScript, GraphQL, Node.js_
   - title: Senior Full Stack Engineer and Team Lead, BOTS
@@ -81,8 +81,8 @@ experience:
 
       Owned the back-office application used by employees across all teams.
 
-      - Led the Flask → FastAPI migration, improving response times **4×** for the data-science team.
-      - Designed the Portfolio Management system used by partner account managers (positions worth **€100k+** each).
+      - Led a partial Flask → FastAPI migration, improving response times **4×** for the data-science team.
+      - Designed the Portfolio Management system used by partner account managers (positions worth over **€100k+**).
 
       _Angular, TypeScript, Flask, FastAPI, MongoDB_
   - title: Senior Mobile Developer (Ionic), Fonoma
@@ -110,25 +110,25 @@ experience:
       - Built a Browser → Client App → Email↔Web Bridge → Web architecture serving **5k+ paying customers**, **USD 12k MRR**, **100k+ emails/day**, with custom Java (Android) and .NET (Windows) clients doing low-level concurrency to multiplex many simultaneous HTTP requests over a single SMTP/IMAP channel — **~4-second round trips**, faster than any other web-to-email solution at the time.
 
       _JavaScript, Android (Java), .NET (C#), PHP, Postfix, MySQL_
-sideProjects:
-  - name: Godel
-    meta: "Python · closed-source agent orchestrator"
-    description: |
-      A Python orchestrator I’m keeping closed-source. Gives agents structure and a clear boundary between the deterministic and non-deterministic parts of a workflow — decorator-based `@workflow` / `@step`, structured event logs, pause/resume/rewind on typed Pydantic v2 state. Auditable, durable, self-healing.
-  - name: know-your-limits
-    meta: "Claude Code plugin marketplace · [github.com/atscub/know-your-limits](https://github.com/atscub/know-your-limits)"
-    description: |
-      A Claude Code plugin marketplace with 15 metacognition and operations skills — premortems, steelmanning, first-principles decomposition, PR lifecycle — that the agent runs on itself to push back against confirmation bias, Dunning-Kruger, hallucination, and incoherence.
-  - name: Food Fighters
-    meta: "Phaser 3 + TypeScript · [github.com/atscub/food-fighters](https://github.com/atscub/food-fighters)"
-    description: |
-      A 2D fighter built through a closed auto-improvement loop inspired by Karpathy’s auto-research approach. 18 iterations adding most of the interesting features autonomously, with me steering the high-level direction.
 openSource:
+  - name: Godel
+    meta: "Python · agent orchestrator"
+    description: |
+      An open-source Python orchestration framework. Gives general purpose agents like Codex, Claude or Pi a deterministic meta harness for reliable and repeatable execution of complex workflows, makes the deterministic/non deterministic boundary explicit. Decorator-based `@workflow` / `@step`, structured event logs, pause/resume/rewind on typed Pydantic v2 state. Auditable, durable, self-healing.
   - name: nautapy
     stars: "41 stars"
     meta: "Python library · github.com/atscub/nautapy"
     description: |
       A Python client for Cuba’s Nauta internet service — checking balance, viewing usage history, handling connections programmatically. Abstracts away the Nauta portal’s authentication and session management.
+  - name: know-your-limits
+    meta: "Claude Code plugin · [github.com/atscub/know-your-limits](https://github.com/atscub/know-your-limits)"
+    description: |
+      A Claude Code plugin with 7 metacognition skills — /socratic, /premortem, /reframe, /decompose, /coherence, /reflect, and /learn — for agent to self monitor and regulate their thought process, reducing their biasses and known problems like confirmation bias, anchoring, sycophancy, Dunning-Kruger effect, and hallucinations. Improvements are more dramatic in the smaller models. Backed by research and benchmarks.
+sideProjects:
+  - name: El Alambique
+    meta: "Typescript + React Native"
+    description: |
+      News aggregator for Cuban independent media sources. Built with React Native and Node (ingestion pipeline). It is censorship-resilient by design.
 education:
   - degree: "Bachelor's degree, Mathematics"
     location: Havana, Cuba
